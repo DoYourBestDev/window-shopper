@@ -27,9 +27,12 @@
                                     <constraint firstAttribute="width" constant="60" id="UkW-MR-00S"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="67c-pS-2rp" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="72" y="178" width="222" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="67c-pS-2rp" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="175" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SwD-ni-51l"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="c3N-Ms-JxU"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -38,11 +41,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="F8J-mk-dcd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1np-bx-2jN"/>
+                            <constraint firstItem="67c-pS-2rp" firstAttribute="top" secondItem="F8J-mk-dcd" secondAttribute="bottom" constant="60" id="Gop-2u-vAz"/>
                             <constraint firstItem="Gz1-xr-OZR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ho3-ru-FXl"/>
                             <constraint firstItem="Gz1-xr-OZR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JDE-oA-XtJ"/>
                             <constraint firstItem="F8J-mk-dcd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="MlG-KL-Lvf"/>
                             <constraint firstItem="Gz1-xr-OZR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="a0a-9h-d7c"/>
                             <constraint firstItem="Gz1-xr-OZR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gCy-o2-6fT"/>
+                            <constraint firstItem="67c-pS-2rp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nWJ-W8-iij"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
