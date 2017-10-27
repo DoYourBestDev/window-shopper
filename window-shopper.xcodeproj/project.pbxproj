@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4598C82D1FA35D7D00D49D87 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598C82C1FA35D7D00D49D87 /* CurrencyTxtField.swift */; };
 		45C031D31F9E73CC007FFDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C031D21F9E73CC007FFDAD /* AppDelegate.swift */; };
 		45C031D51F9E73CC007FFDAD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C031D41F9E73CC007FFDAD /* MainVC.swift */; };
 		45C031D81F9E73CC007FFDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C031D61F9E73CC007FFDAD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4598C82C1FA35D7D00D49D87 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 		45C031CF1F9E73CC007FFDAD /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C031D21F9E73CC007FFDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C031D41F9E73CC007FFDAD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4598C82B1FA35D5000D49D87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4598C82C1FA35D7D00D49D87 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		45C031C61F9E73CC007FFDAD = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		45C031D11F9E73CC007FFDAD /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				4598C82B1FA35D5000D49D87 /* Views */,
 				45C031E41F9E7693007FFDAD /* Controller */,
 				45C031D21F9E73CC007FFDAD /* AppDelegate.swift */,
 				45C031D61F9E73CC007FFDAD /* Main.storyboard */,
@@ -144,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4598C82D1FA35D7D00D49D87 /* CurrencyTxtField.swift in Sources */,
 				45C031D51F9E73CC007FFDAD /* MainVC.swift in Sources */,
 				45C031D31F9E73CC007FFDAD /* AppDelegate.swift in Sources */,
 			);
